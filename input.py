@@ -1,16 +1,17 @@
-print("Hello to Python Calculator!")
+print("Hello!!Welcome to Python Calculator!")
 print("Choose any one of the operation.")
 print("1. Addition")
 print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
 print("5. Modulus")
-print("6. Exit")
+print(("6.Square"))
+print("7. Exit")
 num1=int(input("Enter number1: "))
 num2=int(input("Enter number2: "))
 input= int(input("Enter your choice: "))
 
-if(input==6):
+if(input==7):
     print("Calculator closed!")
 elif(input==1):
     print("Sum of two numbers is: ",num1+num2)
@@ -25,5 +26,9 @@ elif(input==4):
         print("Quotient of two numbers is: ",num1/num2)
 elif(input==5):
     print("Remainder of two numbers is: ",num1%num2)
+elif(input==6):
+    print("Sqaure of number 1: ",num1*num1)
+    print("Sqaure of number 2: ",num2*num2)
+
 else:
     print("Not a valid choice")
